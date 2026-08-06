@@ -1,0 +1,16 @@
+__pycache__/
+.venv/
+venv/
+.env
+*.pyc
+.pytest_cache/
+.mypy_cache/
+eval/last_report.json
+data/understanding/feedback/
+*.egg-info/
+dist/
+build/
+.DS_Store
+Thumbs.db
+~$*
+*.tmp

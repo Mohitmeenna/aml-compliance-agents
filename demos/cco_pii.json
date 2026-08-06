@@ -1,0 +1,29 @@
+{
+  "user_id": "u_cco",
+  "role": "cco",
+  "denied": false,
+  "agent_trace": [
+    "screening_agent:OK",
+    "investigation_agent:VERIFY",
+    "investigation_agent:ANSWER"
+  ],
+  "handoff": [
+    {
+      "from": "screening_agent",
+      "to": "investigation_agent",
+      "ok": true,
+      "error": null,
+      "intents": [
+        "customer",
+        "pii_probe"
+      ],
+      "counts": {
+        "regulatory": 0,
+        "alerts": 5,
+        "transactions": 0,
+        "customers": 1
+      }
+    }
+  ],
+  "answer": "The national ID for customer C-1002 is CY-11223344, and the full name is Viktor Petrov."
+}

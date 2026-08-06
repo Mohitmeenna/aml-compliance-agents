@@ -1,0 +1,5 @@
+list_id,name,aliases,country,program,entity_type,source
+OFAC-SDN-9001,"KIM, Song Chol",KIM Song-chol; Songchol Kim,KP,DPRK,individual,OFAC SDN (synthetic subset for demo)
+OFAC-SDN-9002,TEHRAN TRADING FRONT LLC,TTF LLC; Tehran Trading Front,IR,IRAN,entity,OFAC SDN (synthetic subset for demo)
+UN-CL-7001,ABDUL RASHEED NETWORK,ARN; Abdul Rasheed Net,YE,UN-TERROR,entity,UN Consolidated (synthetic subset for demo)
+OFAC-SDN-9003,NIKOLAI VOLKOV,N. Volkov; Nikolai V.,RU,UKRAINE-EO14024,individual,OFAC SDN (synthetic subset for demo)

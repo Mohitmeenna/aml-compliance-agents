@@ -1,0 +1,14 @@
+{
+  "precomputed": [
+    "regulatory chunking + BM25 token index",
+    "obligation/threshold extraction",
+    "counterparty activity profiles",
+    "baseline screening alerts with feedback-adjusted scores"
+  ],
+  "on_the_fly": [
+    "RBAC filtering/masking per request",
+    "query planning and natural-language synthesis (LLM)",
+    "alert investigation assembly from live filtered tables"
+  ],
+  "why": "Parsing PDFs and re-scoring the full ledger on every question is wasteful; access decisions and answer synthesis must stay request-scoped so RBAC cannot be bypassed by cached answers."
+}

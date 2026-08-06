@@ -1,0 +1,29 @@
+{
+  "user_id": "u_cco",
+  "role": "cco",
+  "denied": false,
+  "agent_trace": [
+    "screening_agent:OK",
+    "investigation_agent:VERIFY",
+    "investigation_agent:ANSWER"
+  ],
+  "handoff": [
+    {
+      "from": "screening_agent",
+      "to": "investigation_agent",
+      "ok": true,
+      "error": null,
+      "intents": [
+        "correspondent",
+        "regulatory"
+      ],
+      "counts": {
+        "regulatory": 5,
+        "alerts": 5,
+        "transactions": 2,
+        "customers": 0
+      }
+    }
+  ],
+  "answer": "The evidence provided contains two transactions that may breach the FATF guidance on correspondent banking: \n\n1. Transaction ID: TX-00013, Alert ID: AL-0003, with a correspondent flag of \"nested_correspondent\".\n2. Transaction ID: TX-00014, Alert ID: AL-0004, with a correspondent flag of \"payable_through\".\n\nBoth transactions are related to customer ID C-1004 and portfolio ID PF-EMEA-02, and have been flagged for correspondent banking risks."
+}

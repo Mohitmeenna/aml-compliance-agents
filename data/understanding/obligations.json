@@ -1,0 +1,90 @@
+[
+  {
+    "obligation_id": "OBL-0001",
+    "type": "correspondent_edd",
+    "value": null,
+    "chunk_id": "FATF_Correspondent_Banking_Guidance_excerpt::c2",
+    "doc_id": "FATF_Correspondent_Banking_Guidance_excerpt",
+    "excerpt": "Section 2. Obligations. Correspondent institutions must understand the respondent bank's AML/CFT\ncontrols, customer base, and nested correspondent activity. Payable-through accounts and nested\nrelationships require enhanced due diligence."
+  },
+  {
+    "obligation_id": "OBL-0002",
+    "type": "shell_bank_prohibition",
+    "value": null,
+    "chunk_id": "FATF_Correspondent_Banking_Guidance_excerpt::c3",
+    "doc_id": "FATF_Correspondent_Banking_Guidance_excerpt",
+    "excerpt": "Section 3. Threshold indicators. Wire transfers routed through nested correspondent chains without\ntransparent originator/beneficiary information should be escalated. Institutions should monitor for\nshell-bank indicators and refuse relationships with shell banks."
+  },
+  {
+    "obligation_id": "OBL-0003",
+    "type": "correspondent_edd",
+    "value": null,
+    "chunk_id": "FATF_Correspondent_Banking_Guidance_excerpt::c3",
+    "doc_id": "FATF_Correspondent_Banking_Guidance_excerpt",
+    "excerpt": "Section 3. Threshold indicators. Wire transfers routed through nested correspondent chains without\ntransparent originator/beneficiary information should be escalated. Institutions should monitor for\nshell-bank indicators and refuse relationships with shell banks."
+  },
+  {
+    "obligation_id": "OBL-0004",
+    "type": "sar_filing",
+    "value": null,
+    "chunk_id": "FATF_Correspondent_Banking_Guidance_excerpt::c5",
+    "doc_id": "FATF_Correspondent_Banking_Guidance_excerpt",
+    "excerpt": "Section 5. Reporting. Where suspicion arises regarding correspondent activity, institutions must file a\nsuspicious activity report according to national law and retain decision rationale in the audit trail."
+  },
+  {
+    "obligation_id": "OBL-0005",
+    "type": "cash_ctr_threshold",
+    "value": 10000,
+    "chunk_id": "FinCEN_Advisory_Cash_Structuring_excerpt::c2",
+    "doc_id": "FinCEN_Advisory_Cash_Structuring_excerpt",
+    "excerpt": "Indicator A. Multiple cash deposits or withdrawals just below USD 10,000 within a short window (for\nexample, 7 days)."
+  },
+  {
+    "obligation_id": "OBL-0006",
+    "type": "structuring_window_days",
+    "value": 7,
+    "chunk_id": "FinCEN_Advisory_Cash_Structuring_excerpt::c2",
+    "doc_id": "FinCEN_Advisory_Cash_Structuring_excerpt",
+    "excerpt": "Indicator A. Multiple cash deposits or withdrawals just below USD 10,000 within a short window (for\nexample, 7 days)."
+  },
+  {
+    "obligation_id": "OBL-0007",
+    "type": "structuring_count",
+    "value": 3,
+    "chunk_id": "FinCEN_Advisory_Cash_Structuring_excerpt::c4",
+    "doc_id": "FinCEN_Advisory_Cash_Structuring_excerpt",
+    "excerpt": "Indicator C. Customer reluctance to provide identification when a transaction approaches the CTR\nthreshold.\nRecommended action. Alerts generated for three or more sub-threshold cash transactions by the same\ncustomer within seven days should be investigated and dispositioned with "
+  },
+  {
+    "obligation_id": "OBL-0008",
+    "type": "structuring_window_days",
+    "value": 7,
+    "chunk_id": "FinCEN_Advisory_Cash_Structuring_excerpt::c4",
+    "doc_id": "FinCEN_Advisory_Cash_Structuring_excerpt",
+    "excerpt": "Indicator C. Customer reluctance to provide identification when a transaction approaches the CTR\nthreshold.\nRecommended action. Alerts generated for three or more sub-threshold cash transactions by the same\ncustomer within seven days should be investigated and dispositioned with "
+  },
+  {
+    "obligation_id": "OBL-0009",
+    "type": "pep_edd",
+    "value": null,
+    "chunk_id": "RBI_Master_Direction_KYC_AML_excerpt::c2",
+    "doc_id": "RBI_Master_Direction_KYC_AML_excerpt",
+    "excerpt": "Chapter II. Politically exposed persons (PEPs) require senior-management approval and enhanced\nongoing monitoring."
+  },
+  {
+    "obligation_id": "OBL-0010",
+    "type": "sanctions_screening",
+    "value": null,
+    "chunk_id": "RBI_Master_Direction_KYC_AML_excerpt::c4",
+    "doc_id": "RBI_Master_Direction_KYC_AML_excerpt",
+    "excerpt": "Chapter IV. Sanctions screening against applicable lists (including UN and domestic lists) must occur\nprior to execution where feasible, and hits must be escalated to compliance."
+  },
+  {
+    "obligation_id": "OBL-0011",
+    "type": "sar_filing",
+    "value": null,
+    "chunk_id": "RBI_Master_Direction_KYC_AML_excerpt::c5",
+    "doc_id": "RBI_Master_Direction_KYC_AML_excerpt",
+    "excerpt": "Chapter V. Records of alerts, dispositions, and SAR filings shall be retained and made available to\ncompetent authorities and auditors subject to applicable confidentiality rules."
+  }
+]

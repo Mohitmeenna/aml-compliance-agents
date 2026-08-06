@@ -1,0 +1,11 @@
+[
+  {
+    "sar_id": "SAR-2026-001",
+    "customer_id": "C-1002",
+    "filed_at": "2026-07-12",
+    "status": "filed",
+    "summary": "Outbound wire to OFAC-listed TEHRAN TRADING FRONT LLC; SAR filed after confirmed true hit.",
+    "amount_usd": 47500.0,
+    "analyst": "James Okonkwo"
+  }
+]

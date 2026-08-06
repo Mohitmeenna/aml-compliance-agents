@@ -1,0 +1,22 @@
+{
+  "user_id": "u_analyst",
+  "role": "aml_analyst",
+  "denied": true,
+  "agent_trace": [
+    "screening_agent:DENIED",
+    "investigation_agent:REFUSAL_PASSTHROUGH"
+  ],
+  "handoff": [
+    {
+      "from_agent": "screening_agent",
+      "to_agent": "orchestrator",
+      "payload": {
+        "refusal": "Access denied. Your role does not permit access to 'sar'. No restricted data is included in this response.",
+        "resource": "sar"
+      },
+      "ok": false,
+      "error": "ACCESS_DENIED: sar \u2014 role cannot access suspicious-activity reports"
+    }
+  ],
+  "answer": "Access denied. Your role does not permit access to 'sar'. No restricted data is included in this response."
+}

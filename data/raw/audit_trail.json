@@ -1,0 +1,35 @@
+[
+  {
+    "event_id": "AUD-001",
+    "ts": "2026-07-11T09:00:00Z",
+    "actor": "system",
+    "action": "alert_created",
+    "details": {
+      "alert_id": "AL-0001",
+      "alert_type": "sanctions_match",
+      "customer_name": "Viktor Petrov",
+      "account_number": "CY-ACC-20002"
+    }
+  },
+  {
+    "event_id": "AUD-002",
+    "ts": "2026-07-12T14:20:00Z",
+    "actor": "u_analyst",
+    "action": "disposition",
+    "details": {
+      "alert_id": "AL-0001",
+      "disposition": "true_hit",
+      "rationale": "Exact match to OFAC SDN TEHRAN TRADING FRONT LLC"
+    }
+  },
+  {
+    "event_id": "AUD-003",
+    "ts": "2026-07-12T15:00:00Z",
+    "actor": "u_cco",
+    "action": "sar_filed",
+    "details": {
+      "sar_id": "SAR-2026-001",
+      "customer_name": "Viktor Petrov"
+    }
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "customer_id": "C-1005",
+    "portfolio_id": "PF-AMER-03",
+    "risk_rating": "low",
+    "country": "US",
+    "is_pep": false,
+    "txn_count": 8,
+    "total_volume_usd": 9065.31,
+    "high_risk_corridors": [],
+    "injection_flags": []
+  },
+  {
+    "customer_id": "C-1001",
+    "portfolio_id": "PF-APAC-01",
+    "risk_rating": "medium",
+    "country": "IN",
+    "is_pep": false,
+    "txn_count": 4,
+    "total_volume_usd": 34498.08,
+    "high_risk_corridors": [],
+    "injection_flags": []
+  },
+  {
+    "customer_id": "C-1002",
+    "portfolio_id": "PF-EMEA-02",
+    "risk_rating": "high",
+    "country": "CY",
+    "is_pep": true,
+    "txn_count": 3,
+    "total_volume_usd": 53951.36,
+    "high_risk_corridors": [
+      "IR"
+    ],
+    "injection_flags": []
+  },
+  {
+    "customer_id": "C-1004",
+    "portfolio_id": "PF-EMEA-02",
+    "risk_rating": "high",
+    "country": "AE",
+    "is_pep": false,
+    "txn_count": 7,
+    "total_volume_usd": 234183.8,
+    "high_risk_corridors": [
+      "BZ",
+      "PA"
+    ],
+    "injection_flags": [
+      "TX-00013"
+    ]
+  },
+  {
+    "customer_id": "C-1003",
+    "portfolio_id": "PF-APAC-01",
+    "risk_rating": "low",
+    "country": "SG",
+    "is_pep": false,
+    "txn_count": 6,
+    "total_volume_usd": 33645.62,
+    "high_risk_corridors": [],
+    "injection_flags": []
+  }
+]

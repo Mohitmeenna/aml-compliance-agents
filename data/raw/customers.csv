@@ -1,0 +1,6 @@
+customer_id,full_name,date_of_birth,national_id,address,phone,email,id_document_type,id_document_number,portfolio_id,risk_rating,country,is_pep
+C-1001,Aisha Rahman,1984-03-12,IN-99887766,"14 Marine Drive, Mumbai, IN",+91-9820012345,aisha.rahman@example.com,Passport,P-IN-445566,PF-APAC-01,medium,IN,False
+C-1002,Viktor Petrov,1971-11-02,CY-11223344,"88 Limassol Ave, Cyprus",+357-99112233,v.petrov@example.com,National ID,CY-778899,PF-EMEA-02,high,CY,True
+C-1003,Sofia Alvarez,1990-07-21,SG-55667788,"3 Raffles Place, Singapore",+65-81234567,sofia.alvarez@example.com,Passport,P-SG-123987,PF-APAC-01,low,SG,False
+C-1004,Omar Al-Farsi,1968-01-30,AE-33445566,"Dubai Marina Tower 9, AE",+971-501112233,omar.alfarsi@example.com,Emirates ID,784-1968-9988776,PF-EMEA-02,high,AE,False
+C-1005,Helen Park,1988-09-09,US-44556677,"1200 Market St, San Francisco, US",+1-415-555-0199,helen.park@example.com,Driver License,CA-D998877,PF-AMER-03,low,US,False

@@ -1,0 +1,104 @@
+# Role scopes live here — enforced in code before the model sees data.
+# Never put these rules only in prompts.
+
+roles:
+  cco:
+    display_name: "Chief Compliance Officer"
+    description: "Full access including customer PII and SAR content."
+    permissions:
+      - transactions.read
+      - transactions.read_pii
+      - customers.read
+      - customers.read_pii
+      - customers.read_id_docs
+      - alerts.read
+      - alerts.disposition
+      - sanctions.read
+      - regulatory.read
+      - audit.read
+      - sar.read
+      - portfolios.all
+
+  aml_analyst:
+    display_name: "AML Analyst"
+    description: "Flagged transactions and alert history; customer PII is masked."
+    permissions:
+      - transactions.read
+      - customers.read          # masked only
+      - alerts.read
+      - alerts.disposition
+      - sanctions.read
+      - regulatory.read
+      - audit.read
+      # NO: transactions.read_pii, customers.read_pii, customers.read_id_docs, sar.read
+
+  external_auditor:
+    display_name: "External Auditor"
+    description: "Audit trail, decisions, and rationale only — no raw customer/txn PII."
+    permissions:
+      - alerts.read_summary     # dispositions + rationale, no underlying PII fields
+      - audit.read
+      - regulatory.read
+      # NO: transactions.read, customers.read, sanctions raw party lists with PII, sar.read
+
+  relationship_manager:
+    display_name: "Relationship Manager"
+    description: "Scoped to own portfolio customers and their transactions only."
+    permissions:
+      - transactions.read
+      - transactions.read_pii   # own book only
+      - customers.read
+      - customers.read_pii      # own book only
+      - alerts.read            # own book only
+      - regulatory.read
+      - portfolios.own
+    # portfolio_ids assigned per user profile
+
+# Seeded user profiles for eval / demo
+users:
+  - id: u_cco
+    name: "Priya Shah"
+    role: cco
+    portfolio_ids: []
+
+  - id: u_analyst
+    name: "James Okonkwo"
+    role: aml_analyst
+    portfolio_ids: []
+
+  - id: u_auditor
+    name: "Elena Rossi"
+    role: external_auditor
+    portfolio_ids: []
+
+  - id: u_rm
+    name: "Marcus Chen"
+    role: relationship_manager
+    portfolio_ids: ["PF-APAC-01"]
+
+# Field classification for masking
+pii_fields:
+  customers:
+    - full_name
+    - date_of_birth
+    - national_id
+    - address
+    - phone
+    - email
+    - id_document_number
+  transactions:
+    - account_number
+    - counterparty_account
+    - remittance_info
+
+masking:
+  full_name: "partial"       # J*** O***
+  date_of_birth: "redact"    # ****-**-**
+  national_id: "last4"
+  address: "redact"
+  phone: "last4"
+  email: "partial"
+  id_document_number: "redact"
+  account_number: "last4"
+  counterparty_account: "last4"
+  remittance_info: "allow"   # narrative kept for screening; injection-sanitized separately
