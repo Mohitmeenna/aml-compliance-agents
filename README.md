@@ -178,8 +178,9 @@ Be specific — component, failure mode, change:
 
 Cover: (1) bootstrap + ask as three roles, (2) Screening→Investigation handoff JSON, (3) `feedback-demo` before/after, (4) eval pass rate, (5) the three 100× failures above, (6) what you'd do with more time (live OFAC sync, stronger entity resolution, human-in-the-loop UI).
 
-- Talk script: `WALKTHROUGH_SCRIPT.docx`
-- Written approach (email attachment): `SOLUTION_APPROACH.pdf` — regenerate with `python -m scripts.make_approach_pdf`
+- Talk outline (optional): `WALKTHROUGH_SCRIPT.docx`
+- Live call cue sheet (no scripted lines): `PRESENTATION_NOTES.pdf` — `python -m scripts.make_presentation_notes_pdf`
+- Written approach (email attachment): `SOLUTION_APPROACH.pdf` — `python -m scripts.make_approach_pdf`
 
 ---
 
